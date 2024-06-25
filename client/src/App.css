@@ -1,0 +1,30 @@
+*{
+    @apply text-white;
+}
+
+.body{
+    background:black;
+}
+
+p{
+    @apply sm:text-lg text-teal-700;
+}
+
+
+.h1{
+    @apply text-3xl;
+}
+.msgrid{
+    @apply grid grid-cols-4;
+}
+
+.img{
+    @apply w-20 sm:w-40 md:w-3/4 lg:w-3/4 2xl:w-3/12;
+}
+.details{
+    @apply h-screen mx-5 grid grid-cols-2;
+}
+
+.button{
+    @apply hover:border border-amber-600 hover:py-1 hover:px-4 rounded-md hover:text-amber-500 hover:drop-shadow-md;
+}
