@@ -1,4 +1,4 @@
-import Serie from '../model/serie_model.js';
+import Serie from '../models/serie_model.js';
 import { errorHandler } from '../helpers/error.js'
 
 export const add_serie = async (req, res, next) => {

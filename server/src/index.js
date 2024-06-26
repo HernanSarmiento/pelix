@@ -1,5 +1,5 @@
 import express from 'express';
-import ConnectDB from './model/db.js';
+import ConnectDB from './models/db.js';
 
 import moviesRoute from './routes/movies_route.js';
 import userRoute from './routes/auth_route.js';

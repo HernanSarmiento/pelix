@@ -1,4 +1,4 @@
-import Movie from '../model/movie_model.js';
+import Movie from '../models/movie_model.js';
 import { errorHandler } from '../helpers/error.js';
 
 
